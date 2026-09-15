@@ -33,6 +33,9 @@ tmp/
 *.sqlite
 *.sqlite3
 *.db
+*.db-*
+*.sqlite-*
+*.sqlite3-*
 
 # Local ML checkpoints (download or place manually when setting up the service)
 backend/iqa/models/*.pth
@@ -47,5 +50,14 @@ Thumbs.db
 
 # Personal thesis assets and large local benchmark corpus
 Graduation_paper/
+private/
+personal/
+thesis/
+defense/
+*毕业论文*.pdf
+*毕业论文*.docx
+*答辩*.pptx
+*.pem
+*.key
 Test_Image/
 conda
